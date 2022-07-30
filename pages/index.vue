@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <h1>Enquêtes Logiques</h1>
+  <h1 v-text="$t('name')" />
 </template>
 
 <style scoped></style>
