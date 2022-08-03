@@ -1,22 +1,15 @@
 import { defineStore } from "pinia"
+import { ref } from "vue"
 
-interface Puzzle {
-  id: number
-}
-
-export const puzzleStore = defineStore({
-  id: "puzzle",
-
-  state: () =>
-    ({
-      puzzles: [{ id: 0 }, { id: 1 }]
-    } as { puzzles: Puzzle[] }),
-
-  getters: {
-    getPuzzles(): Puzzle[] {
-      return this.puzzles
+export const puzzleStore = defineStore("puzzle", () => {
+  const puzzle = ref({
+    0: {
+      clues: 5
+    },
+    1: {
+      clues: 4
     }
-  },
+  })
 
-  actions: {}
+  return { puzzle }
 })

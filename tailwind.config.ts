@@ -2,7 +2,11 @@ import { Config } from "tailwindcss"
 
 export default <Config>{
   theme: {},
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms"), require("daisyui")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("daisyui")
+  ],
   content: [
     "components/**/*.vue",
     "layouts/**/*.vue",
