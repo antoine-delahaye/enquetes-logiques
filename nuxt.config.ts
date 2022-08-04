@@ -17,6 +17,14 @@ export default defineNuxtConfig({
     configPath: "./tailwind.config.ts",
     viewer: false
   },
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        strict: true,
+        types: ["@pinia/nuxt", "@intlify/nuxt3"]
+      }
+    }
+  },
   head: {
     title: "Enquêtes Logiques"
   }

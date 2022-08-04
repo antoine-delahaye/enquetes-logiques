@@ -3,10 +3,10 @@ import { ref } from "vue"
 
 export const puzzleStore = defineStore("puzzle", () => {
   const puzzle = ref({
-    0: {
+    floorPrice: {
       clues: 5
     },
-    1: {
+    theSequence: {
       clues: 4
     }
   })

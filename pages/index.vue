@@ -1,7 +1,7 @@
 <script lang="ts" setup>
   import { puzzleStore } from "../stores/puzzle"
 
-  const { puzzle } = puzzleStore
+  const { puzzle } = puzzleStore()
 </script>
 
 <template>

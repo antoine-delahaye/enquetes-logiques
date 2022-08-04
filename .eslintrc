@@ -18,6 +18,7 @@
     "@typescript-eslint/consistent-type-imports": "off",
     "vue/no-deprecated-slot-attribute": "off",
     "vue/no-reserved-component-names": "off",
-    "vue/multi-word-component-names": "off"
+    "vue/multi-word-component-names": "off",
+    "vue/require-v-for-key": "off"
   }
 }
