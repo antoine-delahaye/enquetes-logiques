@@ -1,3 +1,11 @@
 {
-  "name": "Enquêtes Logiques"
+  "name": "Enquêtes Logiques",
+  "puzzle": {
+    "floorPrice": {
+      "title": "Floor price"
+    },
+    "theSequence": {
+      "title": "The sequence"
+    }
+  }
 }

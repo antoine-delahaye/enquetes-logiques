@@ -5,7 +5,9 @@
 </script>
 
 <template>
-  <h1 v-t="{ path: 'name' }" />
+  <div>
+    <h1 v-t="{ path: 'name' }" />
+  </div>
 </template>
 
 <style scoped></style>
