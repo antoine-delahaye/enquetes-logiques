@@ -2,6 +2,7 @@
   "name": "Enquêtes Logiques",
   "puzzle": {
     "floorPrice": {
+      "title": "Prix plancher",
       "clues": [
         "Paula n'a pas choisi du chêne ni du sapin pour sa chambre.",
         "Le plancher en pin, qui n'est pas le choix d'Adèle, sera posé dans un séjour ou dans un salon.",
@@ -11,11 +12,19 @@
       ]
     },
     "theSequence": {
+      "title": "L'enchaînement",
       "clues": [
         "Marie, dont l'entretien aura lieu une heure après celui sur les locaux, n'ira pas en salle Sériane ni Pétale.",
         "Le rendez-vous avec l'informaticienne aura lieu juste avant celui dans la salle Jaguar, et juste après celui de 30 minutes.",
         "La réunion marketing durera cinq minutes de moins que celle de 14h, et dix de plus que celle avec Kurt.",
         "L'entretien en salle Sériane durera plus longtemps que celui de 16 heures."
+      ],
+      "header": [
+        "Heure",
+        "Collègue",
+        "Salle",
+        "Durée",
+        "Thèmes"
       ]
     }
   }
