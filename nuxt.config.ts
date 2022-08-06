@@ -4,7 +4,12 @@ import fr from "./locales/fr.json"
 import en from "./locales/en.json"
 
 export default defineNuxtConfig({
-  modules: ["@pinia/nuxt", "@intlify/nuxt3", "@nuxtjs/tailwindcss"],
+  modules: [
+    "@pinia/nuxt",
+    "@intlify/nuxt3",
+    "@vueuse/nuxt",
+    "@nuxtjs/tailwindcss"
+  ],
   intlify: {
     vueI18n: {
       legacy: false,
@@ -24,6 +29,9 @@ export default defineNuxtConfig({
         types: ["@pinia/nuxt", "@intlify/nuxt3"]
       }
     }
+  },
+  components: {
+    global: true
   },
   head: {
     title: "Enquêtes Logiques"

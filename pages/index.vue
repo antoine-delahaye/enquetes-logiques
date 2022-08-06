@@ -1,12 +1,14 @@
 <script lang="ts" setup>
-  import { puzzleStore } from "../stores/puzzle"
+  import { userStore } from "../stores/user"
 
-  const { puzzle } = puzzleStore()
+  const user = userStore()
+  const Username = resolveComponent("Username")
+  const Welcome = resolveComponent("Welcome")
 </script>
 
 <template>
   <div>
-    <h1 v-t="{ path: 'name' }" />
+    <component :is="user.username ? Welcome : Username" />
   </div>
 </template>
 
