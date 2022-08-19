@@ -9,7 +9,6 @@
     "lintfix": "eslint --fix . && prettier --write --list-different ."
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.25.2",
     "@intlify/nuxt3": "^0.2.3",
     "@nuxtjs/tailwindcss": "^5.3.1",
     "@tailwindcss/forms": "^0.5.2",
@@ -24,11 +23,11 @@
     "eslint-plugin-nuxt": "^3.2.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
-    "nuxt": "3.0.0-rc.6"
+    "nuxt": "3.0.0-rc.8"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.3.1",
-    "daisyui": "^2.20.0",
-    "pinia": "^2.0.17"
+    "@pinia/nuxt": "^0.4.1",
+    "daisyui": "^2.24.0",
+    "pinia": "^2.0.20"
   }
 }
