@@ -2,8 +2,8 @@
   import { userStore } from "../stores/user"
 
   const user = userStore()
-  const Username = resolveComponent("Username")
-  const Welcome = resolveComponent("Welcome")
+  const Username = resolveComponent("HeroUsername")
+  const Welcome = resolveComponent("HeroWelcome")
 </script>
 
 <template>

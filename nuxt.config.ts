@@ -31,7 +31,8 @@ export default defineNuxtConfig({
     }
   },
   components: {
-    global: true
+    global: true,
+    dirs: ['~/components']
   },
   head: {
     title: "Enquêtes Logiques"
