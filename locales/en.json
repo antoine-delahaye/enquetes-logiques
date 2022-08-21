@@ -2,9 +2,9 @@
   "name": "Enquêtes Logiques",
   "puzzle": {
     "floorPrice": {
-      "title": "Prix plancher",
+      "title": "Floor price",
       "clues": [
-        "Paula n'a pas choisi du chêne ni du sapin pour sa chambre.",
+        "Paula didn't choose oak or fir for her bedroom.",
         "Le plancher en pin, qui n'est pas le choix d'Adèle, sera posé dans un séjour ou dans un salon.",
         "Le dressing mesure dix mètres carrés de plus que l'entrée, et dix de moins que la pièce qui sera refaite chez Olivier.",
         "Oscar a craqué pour le liège. La pièce qu'il compte refaire est plus grande que celle d'Adèle qui n'a pas choisi le sapin.",
