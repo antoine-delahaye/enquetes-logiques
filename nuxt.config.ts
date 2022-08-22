@@ -19,7 +19,19 @@ export default defineNuxtConfig({
     }
   },
   tailwindcss: {
-    configPath: "./tailwind.config.ts",
+    config: {
+      plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms"), require("daisyui")],
+      content: [
+        "components/**/*.vue",
+        "layouts/**/*.vue",
+        "pages/**/*.vue",
+        "app.vue"
+      ],
+      daisyui: {
+        themes: ["bumblebee"],
+        darkTheme: "halloween"
+      }
+    },
     viewer: false
   },
   typescript: {
@@ -32,7 +44,7 @@ export default defineNuxtConfig({
   },
   components: {
     global: true,
-    dirs: ['~/components']
+    dirs: ["~/components"]
   },
   head: {
     title: "Enquêtes Logiques"

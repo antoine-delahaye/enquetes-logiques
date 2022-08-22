@@ -8,3 +8,4 @@ node_modules
 dist
 tailwind.config.js
 .idea
+tsconfig.json
