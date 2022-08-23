@@ -1,13 +1,13 @@
 {
   "button": {
-    "play": "Play"
+    "play": "Jouer"
   },
   "component": {
     "username": {
-      "label": "Username",
-      "placeholder": "Your username",
-      "subtitle": "",
-      "title": ""
+      "label": "Nom d'utilisateur",
+      "placeholder": "Votre nom d'utilisateur",
+      "subtitle": "Veuillez choisir un nom d'utilisateur avant de pouvoir accéder au jeu.",
+      "title": "Choisir un nom d'utilisateur"
     }
   },
   "name": "Enquêtes Logiques",
@@ -29,7 +29,13 @@
         "La réunion marketing durera cinq minutes de moins que celle de 14h, et dix de plus que celle avec Kurt.",
         "L'entretien en salle Sériane durera plus longtemps que celui de 16 heures."
       ],
-      "header": ["Heure", "Collègue", "Salle", "Durée", "Thèmes"],
+      "header": [
+        "Heure",
+        "Collègue",
+        "Salle",
+        "Durée",
+        "Thèmes"
+      ],
       "title": "L'enchaînement"
     }
   }
