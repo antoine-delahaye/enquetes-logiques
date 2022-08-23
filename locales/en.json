@@ -1,18 +1,28 @@
 {
+  "button": {
+    "play": "Play"
+  },
+  "component": {
+    "username": {
+      "label": "Username",
+      "placeholder": "Your username",
+      "subtitle": "",
+      "title": ""
+    }
+  },
   "name": "Enquêtes Logiques",
   "puzzle": {
     "floorPrice": {
-      "title": "Floor price",
       "clues": [
         "Paula didn't choose oak or fir for her bedroom.",
         "Le plancher en pin, qui n'est pas le choix d'Adèle, sera posé dans un séjour ou dans un salon.",
         "Le dressing mesure dix mètres carrés de plus que l'entrée, et dix de moins que la pièce qui sera refaite chez Olivier.",
         "Oscar a craqué pour le liège. La pièce qu'il compte refaire est plus grande que celle d'Adèle qui n'a pas choisi le sapin.",
         "C'est une femme qui mettra du parquet dans son séjour."
-      ]
+      ],
+      "title": "Floor price"
     },
     "theSequence": {
-      "title": "L'enchaînement",
       "clues": [
         "Marie, dont l'entretien aura lieu une heure après celui sur les locaux, n'ira pas en salle Sériane ni Pétale.",
         "Le rendez-vous avec l'informaticienne aura lieu juste avant celui dans la salle Jaguar, et juste après celui de 30 minutes.",
@@ -25,7 +35,8 @@
         "Salle",
         "Durée",
         "Thèmes"
-      ]
+      ],
+      "title": "L'enchaînement"
     }
   }
 }
