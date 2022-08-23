@@ -20,12 +20,16 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     config: {
-      plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms"), require("daisyui")],
+      plugins: [
+        require("@tailwindcss/typography"),
+        require("@tailwindcss/forms"),
+        require("daisyui")
+      ],
       content: [
-        "components/**/*.vue",
-        "layouts/**/*.vue",
-        "pages/**/*.vue",
-        "app.vue"
+        "./components/**/*.vue",
+        "./layouts/**/*.vue",
+        "./pages/**/*.vue",
+        "./app.vue"
       ],
       daisyui: {
         themes: ["bumblebee"],
@@ -44,9 +48,12 @@ export default defineNuxtConfig({
   },
   components: {
     global: true,
-    dirs: ["~/components"]
+    dirs: ["./components"]
   },
-  head: {
+  alias: {
+    "@stores": "./stores"
+  },
+  meta: {
     title: "Enquêtes Logiques"
   }
 })
