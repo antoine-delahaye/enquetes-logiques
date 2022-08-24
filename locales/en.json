@@ -1,13 +1,13 @@
 {
   "button": {
-    "play": "Jouer"
+    "play": "Play"
   },
   "component": {
     "username": {
-      "label": "Nom d'utilisateur",
-      "placeholder": "Votre nom d'utilisateur",
-      "subtitle": "Veuillez choisir un nom d'utilisateur avant de pouvoir accéder au jeu.",
-      "title": "Choisir un nom d'utilisateur"
+      "label": "Username",
+      "placeholder": "Your username",
+      "subtitle": "Please choose a username before proceding to the game.",
+      "title": "Choose a username"
     }
   },
   "name": "Enquêtes Logiques",
