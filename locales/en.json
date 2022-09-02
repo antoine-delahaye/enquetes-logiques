@@ -1,6 +1,8 @@
 {
   "button": {
-    "play": "Play"
+    "next": "Next page",
+    "play": "Play",
+    "previous": "Previous page"
   },
   "component": {
     "username": {
@@ -8,6 +10,9 @@
       "placeholder": "Your username",
       "subtitle": "",
       "title": ""
+    },
+    "welcome": {
+      "title": "Welcome {name}!"
     }
   },
   "name": "Enquêtes Logiques",
@@ -29,7 +34,13 @@
         "La réunion marketing durera cinq minutes de moins que celle de 14h, et dix de plus que celle avec Kurt.",
         "L'entretien en salle Sériane durera plus longtemps que celui de 16 heures."
       ],
-      "header": ["Heure", "Collègue", "Salle", "Durée", "Thèmes"],
+      "header": [
+        "Heure",
+        "Collègue",
+        "Salle",
+        "Durée",
+        "Thèmes"
+      ],
       "title": "L'enchaînement"
     }
   }
