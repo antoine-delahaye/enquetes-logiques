@@ -1,6 +1,8 @@
 {
   "button": {
-    "play": "Play"
+    "next": "Page suivante",
+    "play": "Play",
+    "previous": "Page précédente"
   },
   "component": {
     "username": {
@@ -8,6 +10,9 @@
       "placeholder": "Your username",
       "subtitle": "Please choose a username before proceding to the game.",
       "title": "Choose a username"
+    },
+    "welcome": {
+      "title": "Bienvenue {name} !"
     }
   },
   "name": "Enquêtes Logiques",
