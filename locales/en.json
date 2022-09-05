@@ -18,6 +18,8 @@
   "name": "Enquêtes Logiques",
   "puzzle": {
     "floorPrice": {
+      "title": "Floor price",
+      "introduction": "Ces clients ont profité d'une promotion sur les parquets. Qu'elle pièce chacun va-t-il refaire, et quelle en est sa superficie ? Pour quelle essence de bois a-t-il opté ?",
       "clues": [
         "Paula didn't choose oak or fir for her bedroom.",
         "Le plancher en pin, qui n'est pas le choix d'Adèle, sera posé dans un séjour ou dans un salon.",
@@ -25,23 +27,158 @@
         "Oscar a craqué pour le liège. La pièce qu'il compte refaire est plus grande que celle d'Adèle qui n'a pas choisi le sapin.",
         "C'est une femme qui mettra du parquet dans son séjour."
       ],
-      "title": "Floor price"
+      "headers": {
+        "1": {
+          "name": "Client",
+          "data": [
+            "Adèle",
+            "Olivier",
+            "Oscar",
+            "Paula",
+            "Rémi"
+          ]
+        },
+        "2": {
+          "name": "Pièce",
+          "data": [
+            "Chambre",
+            "Dressing",
+            "Entrée",
+            "Salon",
+            "Séjour"
+          ]
+        },
+        "3": {
+          "name": "Superficie",
+          "data": [
+            "20 m²",
+            "25 m²",
+            "30 m²",
+            "35 m²",
+            "40 m²"
+          ]
+        },
+        "4": {
+          "name": "Bois",
+          "data": [
+            "Bambou",
+            "Chêne",
+            "Liège",
+            "Pin",
+            "Sapin"
+          ]
+        }
+      }
     },
     "theSequence": {
+      "title": "L'enchaînement",
+      "introduction": "Georges a cinq réunions aujourd'hui. À quelle heure, et avec quel collègue ? Dans quelle salle se tiendront-elles, et combien de temps durent-elles ? Quels en sont les thèmes ?",
       "clues": [
         "Marie, dont l'entretien aura lieu une heure après celui sur les locaux, n'ira pas en salle Sériane ni Pétale.",
         "Le rendez-vous avec l'informaticienne aura lieu juste avant celui dans la salle Jaguar, et juste après celui de 30 minutes.",
         "La réunion marketing durera cinq minutes de moins que celle de 14h, et dix de plus que celle avec Kurt.",
         "L'entretien en salle Sériane durera plus longtemps que celui de 16 heures."
       ],
-      "header": [
-        "Heure",
-        "Collègue",
-        "Salle",
-        "Durée",
-        "Thèmes"
+      "headers": {
+        "1": {
+          "name": "Heure",
+          "data": [
+            "14h",
+            "15 h",
+            "16 h",
+            "17 h"
+          ]
+        },
+        "2": {
+          "name": "Collègue",
+          "data": [
+            "Clément",
+            "Kurt",
+            "Marie",
+            "Patricia"
+          ]
+        },
+        "3": {
+          "name": "Salle",
+          "data": [
+            "Jaguar",
+            "Oriane",
+            "Pétale",
+            "Sériane"
+          ]
+        },
+        "4": {
+          "name": "Durée",
+          "data": [
+            "20 min",
+            "25 min",
+            "30 min",
+            "35 min"
+          ]
+        },
+        "5": {
+          "name": "Thème",
+          "data": [
+            "Comptabilité",
+            "Informatique",
+            "Locaux",
+            "Marketing"
+          ]
+        }
+      }
+    },
+    "suchDogSuchMaster": {
+      "title": "Tel chien tel maître",
+      "introduction": "Ces voisons de l'immeuble ont chacun un chien. Commrnt s'apelle-t-il ? Quelle est sa race et son âge ? Quel est le caractère commun au maître et à son animal ?",
+      "clues": [
+        "Beth possède un caniche affectueux. Il ne s'appelle pas Iska ni Baqui.",
+        "André n'est pas distrait ni curieux. Son chien, Popeye, n'est pas un bichon.",
+        "Le shar-pei Tosca et son maître ne sont pas curieux du tout.",
+        "Le chien d'Odile n'est pas un boxer ni un bichon. Tous deux sont sportifs.",
+        "Iska ne vit pas avec Claudine."
       ],
-      "title": "L'enchaînement"
+      "headers": {
+        "1": {
+          "name": "Maître",
+          "data": [
+            "André",
+            "Beth",
+            "Claudine",
+            "Hervé",
+            "Odile"
+          ]
+        },
+        "2": {
+          "name": "Chien",
+          "data": [
+            "Baqui",
+            "Iska",
+            "Popeye",
+            "Tosca",
+            "Yankee"
+          ]
+        },
+        "3": {
+          "name": "Race",
+          "data": [
+            "Bichon",
+            "Boxer",
+            "Caniche",
+            "Shar-Pei",
+            "Whippet"
+          ]
+        },
+        "4": {
+          "name": "Caractère",
+          "data": [
+            "Affectueux",
+            "Calme",
+            "Curieux",
+            "Distrait",
+            "Sportif"
+          ]
+        }
+      }
     }
   }
 }
