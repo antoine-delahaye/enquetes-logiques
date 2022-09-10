@@ -2,7 +2,7 @@ import { defineStore } from "pinia"
 import { ref } from "vue"
 
 export const puzzleStore = defineStore("puzzle", () => {
-  const puzzle = ref({
+  const puzzles = ref({
     floorPrice: {
       clues: 5,
       size: {
@@ -68,5 +68,5 @@ export const puzzleStore = defineStore("puzzle", () => {
     }
   })
 
-  return { puzzle }
+  return { puzzles }
 })

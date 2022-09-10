@@ -1,5 +1,5 @@
 import { useLocalStorage } from "@vueuse/core"
-import { defineStore } from "pinia"
+import { defineStore, skipHydrate } from "pinia"
 
 export const userStore = defineStore("user", () => {
   const username = useLocalStorage("username", "")
@@ -8,5 +8,8 @@ export const userStore = defineStore("user", () => {
     username.value = newUsername
   }
 
-  return { username, setUsername }
+  return {
+    username: skipHydrate(username),
+    setUsername
+  }
 })

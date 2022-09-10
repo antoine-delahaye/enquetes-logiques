@@ -1,7 +1,7 @@
 <script lang="ts" setup>
   import { userStore } from "@stores/user"
 
-  const user = userStore()
+  const { setUsername } = userStore()
   const username = null
 </script>
 
@@ -17,7 +17,7 @@
     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form
         class="card-body"
-        v-on:submit.prevent="user.setUsername(username)">
+        v-on:submit.prevent="setUsername(username)">
         <div class="form-control">
           <label class="label">
               <span
